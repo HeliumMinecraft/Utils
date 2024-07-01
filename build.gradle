@@ -54,6 +54,11 @@ deobf 'net.minecraftforge:forge:1.19.2-43.1.3:userdev'
 }
 
 publishing {
+     publications {
+      mavenJava(MavenPublication) {
+          from components.java
+      }
+  }
  repositories {
     maven {
       name = "GitHubPackages"

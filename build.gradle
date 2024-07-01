@@ -14,7 +14,7 @@ id 'eclipse'
 }
 
 group = 'net.enriquitomc.mods.helium'
-archivesBaseName = 'utils'
+archivesBaseName = 'helutils'
 
 repositories{
 
